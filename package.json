@@ -1,0 +1,27 @@
+{
+  "name": "pocketjs",
+  "version": "1.0.0",
+  "description": "Pocket is a library to create routes that are linked to a specific part of the user interface using components",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -w -c --environment VERSION:1.0.0",
+    "dev": "SET NODE_ENV=development && npm run start",
+    "build": "SET NODE_ENV=production && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OskarGarcia/PocketJS.git"
+  },
+  "author": "oskar garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OskarGarcia/PocketJS/issues"
+  },
+  "homepage": "https://github.com/OskarGarcia/PocketJS#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.8",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  }
+}
